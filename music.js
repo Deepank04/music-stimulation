@@ -7,7 +7,7 @@ class MusicNode {
 }
 
 // Build Tree
-let root = new MusicNode("Deewaniyat");
+let root = new MusicNode("peace");
 let calm = new MusicNode("Calm");
 let energetic = new MusicNode("Energetic");
 let melody = new MusicNode("Melody");
@@ -31,7 +31,7 @@ let currentNodeLL = null;
 
 // ================= AUDIO =================
 const soundMap = {
-    "Deewaniyat": "sounds/intro.mp3",
+    "peace": "sounds/intro.mp3",
     "Calm": "sounds/calm.mp3",
     "Energetic": "sounds/energetic.mp3",
     "Melody": "sounds/melody.mp3",
