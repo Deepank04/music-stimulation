@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Music Simulation</title>
+    <link rel="stylesheet" href="music.css">
+</head>
+<body>
+
+    <h1>🎵 Music Simulation (Tree + Linked List)</h1>
+
+    <button onclick="generateMusic()">Generate Music</button>
+
+    <!-- Tree Visualization -->
+    <div id="tree"></div>
+
+    <!-- Linked List (Playback Sequence) -->
+    <h2>Playback Sequence</h2>
+    <div id="list"></div>
+
+    <div class="player-container">
+
+    <!-- Progress Bar -->
+    <input type="range" id="progress" value="0" min="0" max="100">
+
+    <!-- Controls -->
+    <div class="controls">
+        <button onclick="shuffle()">🔀</button>
+        <button onclick="prevSong()">⏮</button>
+
+        <div class="play-btn" onclick="togglePlay()">▶</div>
+
+        <button onclick="nextSong()">⏭</button>
+        <button onclick="repeat()">🔁</button>
+    </div>
+
+    <!-- Waveform -->
+    <div class="wave" id="wave"></div>
+
+</div>
+
+    <script src="music.js"></script>
+</body>
+</html>
+
